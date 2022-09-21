@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- to use external css, write <link rel="stylesheet" href="filename.css"> in head body The file must not contain any HTML code, and must be saved with a .css extension 用外部编码则不需要内写style-->
+<!--The CSS padding property defines a padding (space) between the text and the border padding/字体与边框距离. margin 两个p/元素之间的距离-->
+<!-- px = pixels像素 % = scale-->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="styles.css">
+<title>Tao's personal website</title>
+  </head>
+
+<body id ="bg" style="background-color:rgb(0, 3, 3);" >
+  <!-- 鼠标active 点击后的激活时候的颜色 = scale--><!-- hover 鼠标悬停时候的颜色 = scale-->
+  <!--<body style="background-color:powderblue;">-->
+  <!--<body style="background-color:powderblue;">--> 
+<!-- 这是脚本，写各种功能 -->
+
+<script src="script.js">
+</script>
+
+<!-- h1 h2是标题，字体会按照顺序变小，h1最重要，用于search search engines -->
+<!-- target 属性
+_self Default
+_blank new windows or tab 
+_parent
+ -->
+ 
+ <!-- style="font-size:10vw" 字体自动适应窗口大小 -->
+<!-- <h1 style="color:rgba(70, 175, 223, 0.945);font-size:60px;" title="I'm a header" >Welcome</h1>  front-size 是字体大小-->
+<!-- <h2 style="color:rgba(70, 175, 223, 0.8);">This page wrote by html with little css features, everything is ongoing, page design not yet completed</h2>-->
+<img class="circle--square" src="images/rat.png" alt="image not found" style="width:128px;height:128px;" align="left"><br><br><br><br><br><br>
+<!--<img src="images/rat.png" alt="image not found" style="width:128px;height:128px;" >-->
+<p style="text-align:center;"><b><a href="https://github.com/Talen-520" target="_blank">Github</a></b></p><!-- text-align:center;d(居中)<b>字体 title="xxx"鼠标放在对象上要显示的文字-->
+<p style="text-align:center;"><b><a href="https://www.linkedin.com/in/tao-hu-6b10a8164/" target="_blank">Linkedin</a></b></p>
+<p title="In general, My resume is not up to date, just for your reference" style="text-align:center;"><b><a href="https://drive.google.com/file/d/1L8dxy8eLT5emBvgR_w50RgamZAm0TKVk/view?usp=sharing" target="_blank">Resume</a></b></p>
+<p style="text-align:center;"><b><a href="https://www.cs.qc.cuny.edu/undergrad/BS_FA22.pdf" target="_blank">Course Path</a></b></p>
+<p style="text-align:center;"><a href = "mailto:someone@example.com" >Contact Me</a></p>
+<p style = "text-align:center"><a href = "#jump">Jump</a></p><!--bookmark 功能，a链接跳转到标记符号，需要在符号面前添加#-->
+
+<p style="text-align:center;"><a href="smallanimation.htm" target="_blank">Animation.</a></p>
+<p style="text-align:center;"><button type="button" onclick="myFunction()" >get time</button><p>
+  <p id="demo" style = "color:black;text-align:center"></p>
+  <pre class="courseList" style="background-color:AliceBlue;text-align:center;border: none;font-family: Verdana, sans-serif">
+    Computer science course taken:
+    CS 111 Intro Algorithmic Problem Solving    CS 211 Object-Oriented Program in C++   CS 212 Object-Oriented Prog in Java
+    CS 313 Data Structures    CS 220 Discrete Structures    CS 240  Computer Organization and Assembly Language    
+    CS 320 Theory of Computation    CS 343 Computer Architecture
+    
+    Math course taken:
+    Math 120 Discrete Mathematics for Computer Science    Math 231 Linear Algebra I   Math 143 Calculus-Infinite Series
+    Math 152 I    Math 142 Calculus/Integration   Math 241 Introduction to Probability and Mathematical Statistics
+    
+    Courses ongoing: 
+    CSCI 340 Operating Systems Principles  CSCI 370 Software Engineering    CSCI 331 Database Systems
+    CSCI 323 Design & Analysis Algorithms  CSCI 316 Principles of Programming Lang
+
+        
+      </pre>
+
+ <!-- <p style="font-family:courier;">The CSS font-family property defines the font to be used for an HTML element</p>-->
+  
+<!-- style="max-width:100%;height:auto;"最大宽度为原图，但可以缩小，高自动适应窗口大小
+  style="width:100%;" 自动放大缩小原图
+-->
+ 
+
+<!--<a href ="https://www.coindesk.com/markets/2021/04/23/dogecoin-and-the-new-meaning-of-money/" style = "background-color: transparent;padding: 0;"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/XA6KIXE6FBFM5EWSA25JI5YAU4.jpg" alt="image not found" width="460" height="345"></a>-->
+<p id="jump">I'm button</p>
+<iframe src="blankwebsite.htm" height="100%" width="100%" style ="border:none;text-align:center;" name="iframe_a" title="Iframe Example"></iframe>
+
+<!-- iframe, a website display another webside inside -->
+<p style="text-align:center;"><a href = "smallanimation.htm" target = "iframe_a">get animation</a></p>
+<iframe src="smallanimation.htm"" height="100%" width="100%" style ="border:none;text-align:center;" title="Iframe Example2"></iframe>
+
+
+<p id="cb" style="text-align:center;">Change background</p>
+<!--图表-->
+<!--<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>Description of A</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Description of B</td>
+  </tr>
+</table>-->
+
+
+<form action="" style="text-align: center;" method="post" autocomplete="on"><!--file with path of php file to perform action, we use null here,post to hide user information autocomplete = autofill-->
+  <label for="fname">Account:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter username" required><br><!--required 用这个属性在末尾用于提示用户填写后提交-->
+  <label for="lname">password:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Enter password" required><br><br>
+  <input type="submit" value="Submit(test purpose only)">
+</form> <br>
+
+<button onclick="window.location.href='https://google.com';">
+  Go to google
+</button>
+
+
+<footer style="text-align:center;">
+<button type="button" onclick="switchColor(1)" style = "background-color:dark;">black</button>
+<button type="button" onclick="switchColor(0)">white</button></footer>
+</body>
+</html>

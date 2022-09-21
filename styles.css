@@ -1,0 +1,142 @@
+
+
+/* Place your CSS styles in this file */
+  p{
+      font-family: Times New Roman;
+      font-size: 110%;
+      margin: 20px;
+      padding: 0px;
+    }
+    a:link {
+  color: white;
+  background-color: rgba(9, 232, 240, 0.5);
+  text-decoration: none;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  width: 100px;
+  
+}
+body{
+  text-align: center;
+  
+
+}
+a:visited {
+  
+  color: white;
+  background-color: rgba(9, 232, 240, 0.5);
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+}
+a:hover {
+  color: pink;
+  text-decoration: underline;
+  display: inline-block;
+  border-radius: 30px;
+}
+a:active {
+  color: rgb(255, 42, 42,0.3);
+  text-decoration: underline;
+  display: inline-block;
+  border-radius: 30px;
+}
+button{
+  border-radius: 30px;
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+button:hover,button:active{
+  color: white;
+  background-color: rgba(12, 199, 206, 0.5);
+  border: none;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+form{
+    width: 200px;
+  display: inline-block;
+  
+}
+
+
+
+input{
+  border-color: aqua;
+  border-radius: 20px;
+  padding: 3px 3px 3px 10px;
+  font-size: inherit;
+  color:rgb(123, 211, 238);
+  outline-style: hidden;
+  display: block;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: right 2% center;
+  background-size: 2rem 2rem;
+}
+
+input:focus {
+  border-color: #de4437;
+}
+
+input[aria-valid="false"] {
+  border-color: #de4437;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWljb24iIHN0eWxlPSJ3aWR0aDogMWVtOyBoZWlnaHQ6IDFlbTt2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO2ZpbGw6IGN1cnJlbnRDb2xvcjtvdmVyZmxvdzogaGlkZGVuOyIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik00NjkuMzMzMzMzIDY0MGwwLjM4NCAwLjM4NEw0NjkuMzMzMzMzIDY0MHogbS0xMDYuMjgyNjY2IDBsLTAuMzg0IDAuMzg0IDAuMzg0LTAuMzg0eiBtNDguNTEyIDEwNi42NjY2NjdhODcuNDY2NjY3IDg3LjQ2NjY2NyAwIDAgMS02MS42NTMzMzQtMjQuODc0NjY3bC0xNzkuNTItMTczLjYzMmE2Ny43OTczMzMgNjcuNzk3MzMzIDAgMCAxIDAtOTguMjRjMjguMDMyLTI3LjE1NzMzMyA3My40OTMzMzMtMjcuMTU3MzMzIDEwMS41ODkzMzQgMGwxMzkuNTg0IDEzNC45OTczMzMgMzE5LjE2OC0zMDguNTQ0YzI4LjAzMi0yNy4xNTczMzMgNzMuNDkzMzMzLTI3LjE1NzMzMyAxMDEuNTg5MzMzIDBhNjcuOTI1MzMzIDY3LjkyNTMzMyAwIDAgMSAwIDk4LjI0TDQ3Mi45ODEzMzMgNzIyLjA2OTMzM0E4Ny41MzA2NjcgODcuNTMwNjY3IDAgMCAxIDQxMS41NjI2NjcgNzQ2LjY2NjY2N3oiIGZpbGw9IiM3OEMzMjYiIC8+PC9zdmc+');
+}
+
+input[aria-valid="true"] {
+  border-color: #37c625;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ic3ZnLWljb24iIHN0eWxlPSJ3aWR0aDogMWVtOyBoZWlnaHQ6IDFlbTt2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO2ZpbGw6IGN1cnJlbnRDb2xvcjtvdmVyZmxvdzogaGlkZGVuOyIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik00NjkuMzMzMzMzIDY0MGwwLjM4NCAwLjM4NEw0NjkuMzMzMzMzIDY0MHogbS0xMDYuMjgyNjY2IDBsLTAuMzg0IDAuMzg0IDAuMzg0LTAuMzg0eiBtNDguNTEyIDEwNi42NjY2NjdhODcuNDY2NjY3IDg3LjQ2NjY2NyAwIDAgMS02MS42NTMzMzQtMjQuODc0NjY3bC0xNzkuNTItMTczLjYzMmE2Ny43OTczMzMgNjcuNzk3MzMzIDAgMCAxIDAtOTguMjRjMjguMDMyLTI3LjE1NzMzMyA3My40OTMzMzMtMjcuMTU3MzMzIDEwMS41ODkzMzQgMGwxMzkuNTg0IDEzNC45OTczMzMgMzE5LjE2OC0zMDguNTQ0YzI4LjAzMi0yNy4xNTczMzMgNzMuNDkzMzMzLTI3LjE1NzMzMyAxMDEuNTg5MzMzIDBhNjcuOTI1MzMzIDY3LjkyNTMzMyAwIDAgMSAwIDk4LjI0TDQ3Mi45ODEzMzMgNzIyLjA2OTMzM0E4Ny41MzA2NjcgODcuNTMwNjY3IDAgMCAxIDQxMS41NjI2NjcgNzQ2LjY2NjY2N3oiIGZpbGw9IiM3OEMzMjYiIC8+PC9zdmc+');
+
+}
+.form-control {
+  margin-top: 50px;
+}
+
+label{
+  color: white;
+}
+/* custome tag*/
+.courseList{
+  
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+.circle--square{
+    border-radius:50%;
+    animation: circleRotation 8s infinite linear;
+}
+
+@keyframes circleRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
