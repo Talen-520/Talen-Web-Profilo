@@ -537,7 +537,7 @@ img {
 }
 
 .skills__js{
-  width: 30%;
+  width: 20%;
 }
 
 .skills__vue{
@@ -545,13 +545,20 @@ img {
 }
 
 .skills__java{
-  width: 70%;
+  width: 80%;
 }
-
+.skills__Cpp{
+  width: 80%;
+}
 .skills__python{
-  width: 50%;
+  width: 20%;
 }
-
+.skills__SQL{
+  width: 20%;
+}
+.skills__Android{
+  width: 20%;
+}
 .skills__close .skills__list {
   
   height: 0;
