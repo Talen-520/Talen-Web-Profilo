@@ -35,18 +35,7 @@
               <p i18n="home">Home</p>
             </a>
           </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">
-              <i class="uil uil-user nav__icon"></i>
-              <p i18n="about">About</p>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link">
-              <i class="uil uil-file-alt nav__icon"></i>
-              <p i18n="skills">Skills</p>
-            </a>
-          </li>
+
           <li class="nav__item">
             <a href="#portfolio" class="nav__link">
               <i class="uil uil-scenery nav__icon"></i>
@@ -122,14 +111,20 @@
 
           <div class="home__data">
             <h1 class="home__title" i18n="home__title">
-              Hi, I'm Tao Hu
+              Hi, This is Tao Hu
             </h1>
             <h3 class="home__subtitle" i18n="home__subtitle">
-              A Computer science student, open to work as a software engineer intern/entry/general role, exploring
+              A Computer science student, open to work as a software engineer intern/entry level/general role, exploring
               DeepLearning world!
             </h3>
             <p class="home__description" i18n="home__description">
-              C++/Java/Python/SQL/Javascript/Android studio/Tensorflow/Restful/Node.js/Numpy
+              Python/Java/C++/SSMS SQL/Javascript/Android studio/Tensorflow/Restful/Node.js/Numpy/Django
+            </p>
+            <p class="home__description" i18n="home__description">
+              Queens College 2017-2019, 2021-2023
+            </p>
+            <p class="home__description" i18n="home__description">
+              Major: transferred from Finance to Computer science
             </p>
             <a href="#contact" class="button button-flex">
               <span i18n="home__contact">Contact Me</span>
@@ -137,30 +132,23 @@
             </a>
           </div>
         </div>
-        <div class="home__scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
-            <span class="home__scroll-name" i18n="home__scroll-name">Scroll down</span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-          </a>
-        </div>
       </div>
     </section>
 
 
-    <!--==================== PORTFOLIO ====================-->
+    <!--==================== Project ====================-->
     <section class="portfolio section" id="portfolio">
-      <h2 class="section__title" i18n="portfolio__title">Portfolio</h2>
+      <h2 class="section__title" i18n="portfolio__title">Project</h2>
       <span class="section__subtitle" i18n="portfolio__subtitle">Most recent works</span>
 
       <div class="portfolio__container container swiper-container">
         <div class="swiper-wrapper">
           <!--==================== PORTFOLIO 1 ====================-->
 
-        
-		
 
-	<div class="portfolio__content grid swiper-slide">
+
+
+          <div class="portfolio__content grid swiper-slide">
             <img src="https://github.com/Talen-520/Talen-520.github.io/blob/main/images/littlelemon.png?raw=true" alt=""
               class="portfolio__img" />
 
@@ -169,8 +157,9 @@
                 Little Lemon
               </h3>
               <p class="portfolio__description" i18n="portfolio2__description">
-                Develop a restaruant website with Django fullstack framework includes reservation system, survey form
-                with customer feedback, inspect customer data into fully managed database MySQL with Crud operations
+                Develop a restaurant webapp with Django fullstack framework includes reservation system, survey form
+                with customer feedback, inspect customer data into fully managed database MySQL with Crud
+                operations, deployed on AWS EC2 with supervisor gunicorn and nginx
               </p>
               <a href="https://github.com/Talen-520/littlelemon/tree/main" target="_blank"
                 class="button button--flex button--small portfolio__button">
@@ -255,8 +244,7 @@
           <!--==================== PORTFOLIO 5 ====================-->
 
           <div class="portfolio__content grid swiper-slide">
-            <img
-              src="https://github.com/Talen-520/Talen-520.github.io/blob/main/images/stuff%20for%20sale.png?raw=true"
+            <img src="https://github.com/Talen-520/Talen-520.github.io/blob/main/images/stuff%20for%20sale.png?raw=true"
               alt="" class="portfolio__img" />
 
             <div class="portfolio_">
@@ -273,7 +261,7 @@
               </a>
             </div>
           </div>
-	      <!--==================== PORTFOLIO 6 ====================-->
+          <!--==================== PORTFOLIO 6 ====================-->
 
 
           <div class="portfolio__content grid swiper-slide">
@@ -295,8 +283,8 @@
               </a>
             </div>
           </div>
-	
-	<!--==================== end block ====================-->
+
+          <!--==================== end block ====================-->
         </div>
         <!-- add arrows-->
         <div class="swiper-button-next">
@@ -313,7 +301,7 @@
 
     </section>
 
-    
+
 
     <!--==================== CONTACT ME ====================-->
     <section class="contact section" id="contact">
